@@ -29,9 +29,6 @@
 }
 
 
-* {
-    font-family: "Noto Sans JP", "sans-serif";
-}
 a {
     @extend %extend_1;
     &:focus {
@@ -55,6 +52,7 @@ html {
 }
 body {
     @extend %extend_3;
+    display: -ms-flexbox;
     display: flex;
     color: #fff;
     //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
